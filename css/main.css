@@ -87,7 +87,7 @@ body{
     	min-height: 500px;
 	}
 	.circle{
-		clip-path: circle(240px at center top);
+		clip-path: circle(180px at center top);
 	}
 	.maindiv{
 		margin-top: 0px;
