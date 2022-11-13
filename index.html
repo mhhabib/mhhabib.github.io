@@ -1,60 +1,115 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Rancho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <title>Whoes This is a rapid design test page!</title>
   </head>
   <body>
-    <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-auto bg-light sticky-top">
-            <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
-                <a href="/" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
-                    <i class="bi-bootstrap fs-1"></i>
-                </a>
-                <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 px-3 align-items-center">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
-                            <i class="bi-house fs-1"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
-                            <i class="bi-speedometer2 fs-1"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
-                            <i class="bi-table fs-1"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Products">
-                            <i class="bi-heart fs-1"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Customers">
-                            <i class="bi bi-file-earmark-pdf"></i>
-                        </a>
-                    </li>
-                </ul>
+    <div class="circle"></div>
+    <div class="container maindiv">
+        <div class="row">
+            <div class="col-md-4 profile">
+                <img src="images/mh.jpg" alt="Profile Picture" class="img-thumbnail">
+                <h3>Md Habibur Rahman</h3>
+                <p><i>From <span class="address">Kushtia</span>, Lives in <span class="address">Dhaka Bangladesh</span></i></p>
+                <p class="social">
+                    <a href=""><i class="fas fa-envelope"></i></a> 
+                    <a href=""><i class="fab fa-linkedin"></i></a> 
+                    <a href=""><i class="fab fa-github-square"></i></a> 
+                    <a href=""><i class="fab fa-stack-overflow"></i></a>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                </p>
+                <hr class="hr-tag">
+                <p class="menu">
+                    <a href="#" id="home">#Home</a>
+                    <a href="#" id="ex">#Experience</a> 
+                    <a href="#" id="ed">#Education</a> 
+                    <a href="#" id="sk">#Skills</a> 
+                    <a href="#" id="pr">#Projets</a> 
+                    <a href="#">#Resume</a>
+                </p>
+            </div>
+            <div class="col-md-8 details">
+                <div class="row">
+                    <div class="col">
+                        <div id="summery">
+                            <p>Before you begin asking others for help on your problem, there are a few steps you can take on your
+                            own. Oftentimes, the fastest answer is one you find for yourself.
+                            One of your first stops for data analysis problems should be reading the manuals or help files (for R
+                            problems, try typing ?command) – if you post a question on a forum that is easily answered by the
+                            manual, you will often get a reply of “Read the manual” … which is not the easiest way to get at the
+                            answer you were going for!
+                            Next steps are searching on Google and searching relevant forums. Common forums for data
+                            science problems include StackOverflow and CrossValidated. Additionally, for you in this class, there
+                            is a course forum that is a great resource and super helpful! Before posting a question to any forum,
+                            try and double check that it hasn’t been asked before, using the forums’ search functions.
+                            While you are Googling, things to pay attention to and look for are: tutorials, FAQs, or vignettes of
+                            whatever command or program is giving you trouble. These are great resources to get you started –
+                            either in telling you the language/words to use in your next searches, or outright showing you how to
+                            do something.
+                            </p>
+                        </div>
+                        <div id="exp">
+                            <h3 class="my-title">Experience</h3>
+                            <div class="container">
+                              <div class="row">
+                                <div class="col">
+                                  Column
+                                </div>
+                                <div class="col">
+                                  Column
+                                </div>
+                                <div class="col">
+                                  Column
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div id="edu">
+                            <h3 class="my-title">Education</h3>
+                            <p>
+                                '১১ এপ্রিল সকাল। খবর পাই আমার করোনা টেস্টের ফল পজিটিভ এসেছে। কী করব কী করব, বুঝে উঠতে পারছিলাম না। ওই দিন সন্ধ্যায় রাজারবাগ পুলিশ লাইনস হাসপাতালে চলে যাই। ছোট্ট একটি রুমে একা ছিলাম। আমার মেয়ে বারবার ফোন করত। বলত, “বাবা আসো না কেন, কবে আসবা?” আমি শুধু ওকে বলতাম, মা, কালই চলে আসব। এভাবে সময় এগিয়ে নিতে নিতে বেশ কয়েক দিন পর মেয়ের সঙ্গে দেখা।’
+
+    কথাগুলো বলছিলেন মো. গোলাম সাকলায়েন। ঢাকা মহানগর পুলিশের ( ডিএমপি) গোয়েন্দা বিভাগের (উত্তর) অতিরিক্ত উপকমিশনার তিনি। ঊর্ধ্বতন এই পুলিশ কর্মকর্তাই করোনায় সংক্রমিত বাংলাদেশ পুলিশ বাহিনীর সর্বপ্রথম ব্যক্তি। আর তিনিই প্রথম ব্যক্তি, যিনি করোনাকে জয় করে আবার কাজে ফিরেছেন।
+                            </p>
+                        </div>
+                        <div id="skill">
+                            <h3 class="my-title">Skill</h3>
+                            <p>
+                                জাতীয় অধ্যাপক আনিসুজ্জামানের দাফন সম্পন্ন হয়েছে। আজ শুক্রবার সকালে রাজধানীর আজিমপুর কবরস্থানে বাবার কবরে শেষনিদ্রায় শায়িত হন তিনি।
+
+    ঢাকা জেলা প্রশাসনের পক্ষ থেকে অধ্যাপক আনিসুজ্জামানকে গার্ড অব অনার দেওয়া হয়। গার্ড অব অনার দেন জেলা প্রশাসনের পক্ষে ধানমন্ডি রাজস্ব সার্কেলের সহকারী কমিশনার (ভূমি) ও নির্বাহী ম্যাজিস্ট্রেট মো. রবিউল আলম । সেখানে  ঢাকা দক্ষিণ সিটির সমাজকল্যাণ কর্মকর্তা শাহাদাত হোসেন, রাজারবাগ পুলিশ লাইনসের উপপরিদর্শক আব্দুর রহমান, আঞ্চলিক নির্বাহী কর্মকর্তা বাবর আলী মীর উপস্থিত ছিলেন।
+                            </p>
+                        </div>
+                        <div id="project">
+                            <h3 class="my-title">Project</h3>
+
+                            <p>
+                                বাংলাদেশে করোনা সংক্রমণের বর্তমান প্রেক্ষাপটে আমরা সবাই কমবেশি বিভ্রান্ত। একদিকে নিরাপদে বাসায় না থাকলে সংক্রমণ ও মৃত্যুর ঝুঁকি রয়েছে, অন্যদিকে বাসায় থাকলেও দারিদ্র্যের জন্য এই ঝুঁকিগুলো কমবেশি রয়ে গেছে। ঢাকা বিশ্ববিদ্যালয়ের স্বাস্থ্য অর্থনীতি ইনস্টিটিউটের হিসাবমতে, দৈনিক ৩ হাজার কোটি টাকার বেশি ক্ষতি দুই মাস ধরে বাংলাদেশের অর্থনীতিকে নিতে হয়েছে। স্বাস্থ্য খাত, শিক্ষা খাত, শিল্প খাতসহ বাংলাদেশের আর্থসামাজিক খাতগুলোও আজ সংক্রমিত এবং বিপর্যস্ত। এরই ধারাবাহিকতায় চলমান লকডাউন শিথিল কিংবা তুলে নেওয়ার প্রক্রিয়া শুরু হয়েছে বলেই মনে হয়।
+
+    ১০ মে দেশব্যাপী দোকানপাটসহ মার্কেট সীমিত আকারে খুলে দেওয়া হয়েছে। ওই দিনই ঢাকাসহ সারা দেশের রাস্তাঘাট এবং মার্কেটগুলোতে উপচে পড়া ভিড় পরিলক্ষিত হয়েছে। বাংলাদেশ ধীরে ধীরে স্বরূপে প্রত্যাবর্তন করছে। বাইরে প্রচুর জনসমাগম। আবার ওই একই সঙ্গে ধারাবাহিকভাবে করোনা সংক্রমণ ও মৃত্যুর সংখ্যা বাড়ছে। সংক্রমণ এবং মৃত্যু সামনের দিনগুলোতে বাড়তে থাকবে—এমন আশঙ্কাই বেশি। কারণ, লকডাউন শিথিল কিংবা তুলে নেওয়ার এই প্রক্রিয়া থেকে সরে আসার কোনো ইঙ্গিত নেই।
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-sm p-3 min-vh-100">
-            <!-- content -->
-            <h2>A glorious Bootstrap 5 icon sidebar menu!</h2>
-            <hr />
-            <h3>More content...</h3>
-            <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics, raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation. Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-            <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies, forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
-            <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics, raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation. Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-        </div>
     </div>
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
