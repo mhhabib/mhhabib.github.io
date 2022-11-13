@@ -8,7 +8,7 @@ body{
 }
 .maindiv{
 	padding: 10px;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 .details{
 	margin-top: 30px;
@@ -63,7 +63,7 @@ body{
 	font-family: 'Rancho', cursive;
 	background: linear-gradient(to right, #017143 0%, #F4F6F9 100%);
 	color: #fff;
-	width: 50%;
+	width: 100%;
 	padding: 2px 10px;
 	border-left: 8px solid #E0144C;
 	margin-bottom: 20px;
@@ -78,6 +78,36 @@ body{
 	background: #017143;
 	clip-path: circle(500px at right 800px);
 }
+.designation{
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 5px;
+}
+.job-provider{
+	font-size: 14px;
+	line-height: 2px;
+	font-weight: 500;
+}
+.job-provider a{
+	text-decoration: none;
+	color: #E0144C;
+}
+.job-date{
+	font-size: 12px;
+	line-height: 5px;
+}
+.exp-gap{
+	margin: 20px;
+}
+
+.job-responsibility{
+	font-size: 14px;
+}
+.contributed-project img{
+	width: 15%;
+	margin: 10px;
+	box-shadow: 0.2rem 0.2rem #017143, -0.2rem -0.2rem #E0144C;
+}
 
 @media only screen and (max-width: 767px){
 	.maindiv{
@@ -87,9 +117,13 @@ body{
     	min-height: 500px;
 	}
 	.circle{
-		clip-path: circle(180px at center top);
+		clip-path: circle(200px at center top);
 	}
 	.maindiv{
 		margin-top: 0px;
+	}
+	.contributed-project img{
+		width: 30%;
+		margin: 5px;
 	}
 }
