@@ -1,18 +1,22 @@
 $(document).ready(function () {
   $('#summery').show();
+  $('#msocial').hide();
   $('#exp').hide();
   $('#edu').hide();
   $('#skill').hide();
   $('#project').hide();
   $('#home').click(function() {
     $('#summery').show();
+    $('#msocial').hide();
     $('#exp').hide();
     $('#edu').hide();
     $('#skill').hide();
     $('#project').hide();
   });
+
   $('#ex').click(function () {
     $('#exp').show();
+    $('#msocial').show();
     $('#summery').hide();
     $('#edu').hide();
     $('#skill').hide();
@@ -20,6 +24,7 @@ $(document).ready(function () {
   });
   $('#ed').click(function () {
     $('#edu').show();
+    $('#msocial').show();
     $('#summery').hide();
     $('#exp').hide();
     $('#skill').hide();
@@ -27,6 +32,7 @@ $(document).ready(function () {
   });
   $('#sk').click(function () {
     $('#skill').show();
+    $('#msocial').show();
     $('#summery').hide();
     $('#exp').hide();
     $('#edu').hide();
@@ -34,6 +40,7 @@ $(document).ready(function () {
   });
   $('#pr').click(function () {
     $('#project').show();
+    $('#msocial').show();
     $('#summery').hide();
     $('#exp').hide();
     $('#skill').hide();
