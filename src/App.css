@@ -1,52 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-}
-.App {
-  text-align: center;
-}
-.main-body{
-  background-color: #232425;
-  color: #a9a9b3;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-.about-me{
-  background-color: #232425;
-  color: #a9a9b3;
-  min-height: 100vh;
-}
-.identity{
-  padding: 10px;
-}
-.icon-container{
-  position: relative;
-  z-index: 100;
-}
-.icon-container a{
-  text-decoration: none;
-  padding: 10px;
-  color: #A9A9A9;
-}
-.icon-container a:hover{
-  color: #2D9596;
-}
+
 .footer{
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-.footer p {
-  padding: 10px;
-}
-
-.notfound h1{
-  color: #A9A9A9;
-  font-family: 'Ubuntu';
-  font-weight: 700;
-  font-size: 96px;
 }
