@@ -70,9 +70,21 @@ const Home=()=>{
                     </div>
                 </div>
                 <div className="footer">
-                    <div className="grid grid-cols-2 gap-4 p-4">
-                        <div className="mx-auto max-w-screen-xl text-center">Page size -99kb</div>
-                        <div className="mx-auto max-w-screen-xl text-center">Click anywhere 5 times within a second to explore more about me</div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+                        <div className="mx-auto max-w-screen-xl text-center">
+                        <span className="hidden md:inline">Page size - 99kb</span>
+                        <span className="md:hidden">
+                        <a href="#" className="inline-flex mb-4 px-3 text-sm font-normal leading-none text-blue-700 selection:bg-gray-600 selection:text-pink-400">Next
+                            <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                        </span>
+                        </div>
+                        <div className="mx-auto max-w-screen-xl text-center">
+                        <span className="hidden md:inline">Click anywhere 5 times within a second to explore more about me</span>
+                        <span className="md:hidden">Page size - 99kb</span>
+                        </div>
                     </div>
                 </div>
             </div>
