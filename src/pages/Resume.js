@@ -1,4 +1,3 @@
-import React, {useState, useEffect} from 'react';
 import { Worker } from '@react-pdf-viewer/core';
 import { Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
