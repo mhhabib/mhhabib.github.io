@@ -9,7 +9,7 @@ const About=()=>{
                 #<span className="text-[#e06c75]"><Link to="experience">Experience</Link> </span> 
                 #<span className="text-[#1AACAC]"><Link to="education">Education</Link> </span> 
                 #<span className="text-[#e4bb68]">Social Media </span>
-                #<span className="text-[#789461]">CV </span>
+                #<span className="text-[#789461]"><Link to="cv">CV</Link> </span>
             </p>
             <Outlet/>
         </div>

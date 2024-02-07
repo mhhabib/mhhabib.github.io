@@ -2,6 +2,7 @@ import React, {Fragment, useEffect, useState} from "react"
 import { useNavigate, Link } from "react-router-dom";
 import emailIcon from "../images/icons8-email-96.png"
 import pxIcon from "../images/icons8-500px-50.png"
+import {detectDeviceAndOs} from "../Utils/Utils"
 
 const Home=()=>{
     const [count, setCount]=useState(0);
@@ -72,7 +73,7 @@ const Home=()=>{
                 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
                         <div className="mx-auto max-w-screen-xl text-center">
-                        <span className="hidden md:inline">@mhhabib</span>
+                        <span className="hidden md:inline">The visitor is based on a <span className="text-[#789461] font-semibold">{detectDeviceAndOs().device}</span> device and <span className="text-[#789461] font-semibold">{detectDeviceAndOs().os}</span> operating system</span>
                         <span className="md:hidden">
                         <Link to="/me" className="inline-flex mb-4 px-3 text-sm font-normal leading-none text-blue-700 selection:bg-gray-600 selection:text-pink-400">Next
                             <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -83,7 +84,7 @@ const Home=()=>{
                         </div>
                         <div className="mx-auto max-w-screen-xl text-center">
                         <span className="hidden md:inline">Click anywhere 5 times within a second to explore more about me</span>
-                        <span className="md:hidden">@mhhabib</span>
+                        <span className="md:hidden">The visitor is based on a <span className="text-[#789461] font-semibold">{detectDeviceAndOs().device}</span> device and <span className="text-[#789461] font-semibold">{detectDeviceAndOs().os}</span> operating system</span>
                         </div>
                     </div>
                 </div>

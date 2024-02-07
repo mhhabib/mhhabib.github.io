@@ -6,6 +6,7 @@ import About from './pages/About';
 import NotFound404 from './pages/NotFound404';
 import Experience from './pages/Experience';
 import Education from './pages/Education';
+import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<Experience />} />
           <Route path="experience" element={<Experience />} />
           <Route path="education" element={<Education />} />
+          <Route path="cv" element={<Resume />} />
         </Route>
         <Route path="*" element={<NotFound404/>}/>
       </Routes>
