@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e781ccc7.css",
-    "main.js": "/static/js/main.caa7b41b.js",
+    "main.js": "/static/js/main.8138a5b2.js",
     "static/media/CV_Md_Habibur_Rahman.pdf": "/static/media/CV_Md_Habibur_Rahman.500f9f705511fdd68564.pdf",
     "static/media/cpluplus.png": "/static/media/cpluplus.1a0782ae621f88d203c7.png",
     "static/media/express.png": "/static/media/express.e8ec3caa8847fe10e309.png",
@@ -10,10 +10,10 @@
     "static/media/postgresql.png": "/static/media/postgresql.cfd9dc3f35b0c23f69dc.png",
     "index.html": "/index.html",
     "main.e781ccc7.css.map": "/static/css/main.e781ccc7.css.map",
-    "main.caa7b41b.js.map": "/static/js/main.caa7b41b.js.map"
+    "main.8138a5b2.js.map": "/static/js/main.8138a5b2.js.map"
   },
   "entrypoints": [
     "static/css/main.e781ccc7.css",
-    "static/js/main.caa7b41b.js"
+    "static/js/main.8138a5b2.js"
   ]
 }
