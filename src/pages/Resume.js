@@ -32,7 +32,7 @@ const Resume=()=>{
             </Toolbar>
         )
     });
-    if (detectDeviceAndOs().device === 'Mobile' || detectDeviceAndOs().device === 'Tablet') {
+    if (detectDeviceAndOs().isMobile) {
         return <div className="text-center mt-8">CV viewer is available only on PC devices.</div>;
     }
     
