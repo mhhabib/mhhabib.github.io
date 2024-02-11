@@ -2,7 +2,6 @@ import React, {Fragment} from "react"
 import { Link } from "react-router-dom";
 import emailIcon from "../images/icons8-email-96.png"
 import pxIcon from "../images/icons8-500px-50.png"
-import {detectDeviceAndOs} from "../Utils/Utils"
 
 const Home=()=>{
     return <Fragment>

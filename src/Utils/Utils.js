@@ -3,7 +3,7 @@ export const detectDeviceAndOs = () => {
     const userAgent = navigator.userAgent;
 
     // Regular expressions to match different devices and operating systems
-    let isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+    let isMobile=null
 
     // Screen resolution method
     if (!isMobile) {
@@ -11,7 +11,7 @@ export const detectDeviceAndOs = () => {
         let screenHeight = window.screen.height;
         isMobile = (screenWidth < 768 || screenHeight < 768);
     }
-
+    isMobile  = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
     // Touch events method
     if (!isMobile) {
         isMobile = (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0));
