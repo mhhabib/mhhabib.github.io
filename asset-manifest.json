@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b8c86ac.css",
-    "main.js": "/static/js/main.1f17dd47.js",
-    "static/js/470.63e266fe.chunk.js": "/static/js/470.63e266fe.chunk.js",
+    "main.css": "/static/css/main.2b49cc02.css",
+    "main.js": "/static/js/main.56f7e8bd.js",
+    "static/js/470.5746e730.chunk.js": "/static/js/470.5746e730.chunk.js",
     "static/media/CV_Md_Habibur_Rahman.pdf": "/static/media/CV_Md_Habibur_Rahman.500f9f705511fdd68564.pdf",
     "static/media/cpluplus.png": "/static/media/cpluplus.1a0782ae621f88d203c7.png",
     "static/media/express.png": "/static/media/express.e8ec3caa8847fe10e309.png",
@@ -10,12 +10,12 @@
     "static/media/react.png": "/static/media/react.a735267992861f02c8f2.png",
     "static/media/postgresql.png": "/static/media/postgresql.cfd9dc3f35b0c23f69dc.png",
     "index.html": "/index.html",
-    "main.3b8c86ac.css.map": "/static/css/main.3b8c86ac.css.map",
-    "main.1f17dd47.js.map": "/static/js/main.1f17dd47.js.map",
-    "470.63e266fe.chunk.js.map": "/static/js/470.63e266fe.chunk.js.map"
+    "main.2b49cc02.css.map": "/static/css/main.2b49cc02.css.map",
+    "main.56f7e8bd.js.map": "/static/js/main.56f7e8bd.js.map",
+    "470.5746e730.chunk.js.map": "/static/js/470.5746e730.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b8c86ac.css",
-    "static/js/main.1f17dd47.js"
+    "static/css/main.2b49cc02.css",
+    "static/js/main.56f7e8bd.js"
   ]
 }
