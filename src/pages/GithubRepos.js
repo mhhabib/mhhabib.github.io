@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Repository from "./Repository";
-import { Loading } from "./Loading";
+import { Loading } from "../components/Loading";
 
 const GithubRepository=()=>{
     const [repositories, setRepositories]=useState([])

@@ -7,10 +7,7 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 const Resume=()=>{
     const defaultLayoutPluginInstance = defaultLayoutPlugin({
-        sidebarTabs: (defaultTabs) => [
-            defaultTabs[0], // Bookmarks tab
-            defaultTabs[1], // Thumbnails tab
-        ],
+        sidebarTabs: (defaultTabs) => [],
         renderToolbar: (Toolbar) => (
             <Toolbar>
                 {
