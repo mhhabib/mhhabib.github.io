@@ -2,11 +2,13 @@ import React, {Fragment, useState, useEffect} from "react"
 import { OnlinePresence } from "../components/OnlinePresence";
 import { Ping } from "../components/Loading";
 import { NextLink } from "../components/NextLink";
+import ReactGA from "react-ga4";
 
 const Home=()=>{
     const [isUserOffline, setIsUserOffline] = useState(true)
     
     useEffect(()=>{
+        ReactGA.send({ hitType: "pageview", page: "/", title: "Home page" });
         window.addEventListener('online', function(e) {
             setIsUserOffline(true)
         }, false);

@@ -7,8 +7,14 @@ import jira from "../images/jira.png"
 import node from "../images/node.png"
 import express from "../images/express.png"
 import postgresql from "../images/postgresql.png"
+import { useEffect } from "react"
+import ReactGA from "react-ga4"
 
 const Experience = ()=>{
+    useEffect(()=>{
+        ReactGA.send({ hitType: "pageview", page: "/me/experience", title: "Experience page" });
+    },[])
+    
     return <>
          <div className="flex flex-col items-center justify-center p-8">
             <ol className="relative border-s border-gray-200 dark:border-gray-700">                  

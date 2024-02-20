@@ -7,7 +7,10 @@ import NotFound404 from './pages/NotFound404';
 import Experience from './pages/Experience';
 import Education from './pages/Education';
 import Resume from './pages/Resume';
+import ReactGA from "react-ga4";
 const GithubRepository = React.lazy(()=>import("./pages/GithubRepos"))
+const GA_ID="UA-78562922-2"
+ReactGA.initialize(GA_ID)
 
 function App() {
   return (

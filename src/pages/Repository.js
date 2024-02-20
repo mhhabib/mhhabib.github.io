@@ -1,5 +1,5 @@
 const Repository = (props)=>{
-    console.log(props.repository)
+    
     return <>
         <div className="w-full max-w-sm p-4 bg-[#292a2b] shadow-lg">
             <h5 className="text-lg font-medium mb-2 text-[#789461]">

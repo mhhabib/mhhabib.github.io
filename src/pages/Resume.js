@@ -4,8 +4,14 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import latestResume from "../files/CV_Md_Habibur_Rahman.pdf"
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
+import React, {useEffect} from 'react';
+import ReactGA from "react-ga4"
 
 const Resume=()=>{
+    useEffect(()=>{
+        ReactGA.send({ hitType: "pageview", page: "/me/resume", title: "Resume page" });
+    },[])
+    
     const defaultLayoutPluginInstance = defaultLayoutPlugin({
         sidebarTabs: (defaultTabs) => [],
         renderToolbar: (Toolbar) => (

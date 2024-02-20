@@ -1,5 +1,10 @@
+import React, {useEffect} from "react";
+import ReactGA from "react-ga4"
 
 const Education = ()=>{
+    useEffect(()=>{
+        ReactGA.send({ hitType: "pageview", page: "/me/education", title: "Education page" });
+    },[])
     return <>
         <div className="flex flex-col items-center justify-center p-8">
             <ol className="relative border-s border-gray-200 dark:border-gray-700">                  
